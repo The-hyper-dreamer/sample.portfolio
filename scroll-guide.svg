@@ -1,0 +1,5 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="10" width="80" height="40" rx="20" fill="white" opacity="0.9"/>
+  <path d="M 40 25 L 60 35 L 80 25" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="65" font-size="10" fill="white" text-anchor="middle" font-family="Inter, sans-serif">Scroll to explore</text>
+</svg>

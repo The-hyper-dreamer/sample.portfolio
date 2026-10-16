@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anex Joby | Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Anex Joby</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg" style="background-image: url('assets/images/hero-bg.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-center">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">B.Tech CSE • Second Year</span>
+                </div>
+                <h1 class="hero-title">
+                    Anex <span class="highlight">Joby</span>
+                </h1>
+                <p class="hero-subtitle">Aspiring Software Developer | Vibe Coder</p>
+                <p class="hero-description">Detail-oriented Computer Science student passionate about building clean, functional, and user-friendly web applications. Eager to apply my growing technical skills to real-world development opportunities.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-guide">
+            <div class="scroll-guide-content">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-guide-text">
+                    <span class="scroll-main">Scroll to explore</span>
+                    <span class="scroll-next" id="scrollNext">Next: About Me</span>
+                </div>
+                <div class="scroll-arrows">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-bg" style="background-image: url('assets/images/bg1.jpg')"></div>
+        <div class="about-overlay"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Professional Profile</h2>
+                <p class="section-subtitle">Turning curiosity into code, ideas into solutions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a second-year B.Tech Computer Science Engineering student with a strong foundation in web development. I combine technical learning with creativity drawn from cooking and reading to build thoughtful, user-centered applications.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <img src="assets/icons/code-icon.svg" alt="Coding" class="highlight-icon">
+                            <div class="highlight-info">
+                                <h3>Technical Growth</h3>
+                                <p>Exploring programming languages through hands-on vibe coding and building real projects.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <img src="assets/icons/cook-icon.svg" alt="Cooking" class="highlight-icon">
+                            <div class="highlight-info">
+                                <h3>Creative Precision</h3>
+                                <p>Cooking teaches attention to detail and creativity that I apply to writing clean, efficient code.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <img src="assets/icons/book-icon.svg" alt="Reading" class="highlight-icon">
+                            <div class="highlight-info">
+                                <h3>Continuous Learner</h3>
+                                <p>Reading broadens my perspective and helps me stay curious about new tech and ideas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-skills-panel">
+                    <h3 class="skills-panel-title">Core Competencies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt skill-icon"></i>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square skill-icon"></i>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt skill-icon"></i>
+                            <span class="skill-name">Git & Version Control</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github skill-icon"></i>
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-laptop-code skill-icon"></i>
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="projects-bg" style="background-image: url('assets/images/bg2.jpg')"></div>
+        <div class="projects-overlay"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Practical solutions built with purpose</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="assets/icons/project-recipe.svg" alt="Recipe Haven Project" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" aria-label="View Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Recipe Haven</h3>
+                            <span class="project-type">Web Application</span>
+                        </div>
+                        <p class="project-description">A curated recipe collection showcasing my love for cooking. Clean interface with recipe cards built using HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="assets/icons/project-book.svg" alt="LitLog Project" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" aria-label="View Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">LitLog</h3>
+                            <span class="project-type">Reading Tracker</span>
+                        </div>
+                        <p class="project-description">Minimalist reading tracker to log books, ratings, and thoughts. Built with focus on usability and clean design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="assets/icons/project-portfolio.svg" alt="Portfolio Project" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" aria-label="View Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Professional Portfolio</h3>
+                            <span class="project-type">Portfolio Site</span>
+                        </div>
+                        <p class="project-description">Modern responsive portfolio showcasing skills and projects with professional aesthetics and smooth interactions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-bg" style="background-image: url('assets/images/bg3.jpg')"></div>
+        <div class="contact-overlay"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Open to internships, entry-level opportunities & collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <h3 class="contact-card-title">Get In Touch</h3>
+                    <p class="contact-card-text">I'm actively seeking opportunities to contribute to meaningful projects. Feel free to connect.</p>
+                    <div class="contact-items">
+                        <a href="https://github.com/anexjoby" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon-wrapper"><i class="fab fa-github"></i></div>
+                            <div class="contact-item-info">
+                                <span class="contact-item-label">GitHub</span>
+                                <span class="contact-item-value">github.com/anexjoby</span>
+                            </div>
+                        </a>
+                        <a href="mailto:anexjoby@example.com" class="contact-item">
+                            <div class="contact-icon-wrapper"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-item-info">
+                                <span class="contact-item-label">Email</span>
+                                <span class="contact-item-value">anexjoby@example.com</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/anexjoby" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon-wrapper"><i class="fab fa-linkedin"></i></div>
+                            <div class="contact-item-info">
+                                <span class="contact-item-label">LinkedIn</span>
+                                <span class="contact-item-value">linkedin.com/in/anexjoby</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-cta">
+                        <a href="mailto:anexjoby@example.com" class="btn btn-primary"><i class="fas fa-envelope-open-text"></i> Send Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg" style="background-image: url('assets/images/bg4.jpg')"></div>
+        <div class="footer-overlay"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Anex Joby</span>
+                    <p class="footer-tagline">B.Tech CSE Student | Aspiring Software Developer</p>
+                </div>
+                <p class="footer-text">© 2026 Anex Joby. Built with passion for professional growth.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/anexjoby" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/anexjoby" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:anexjoby@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
